@@ -7,22 +7,15 @@ public class Arraylist {
     public static void main(String[] args) {
     
     
-    List<Integer> mListliste = new ArrayList<>();
+    List<Integer> mListliste = new ArrayList<>(java.util.Arrays.asList(1, 2, 2, 4, 5));
 
-
-        mListliste.add(1);
-        mListliste.add(2);
-        mListliste.add(2);
-        mListliste.add(4);
-        mListliste.add(5);
         
-    
+
         System.out.println(mListliste.get(3));
         System.out.println(mListliste.get(4));
 
         System.out.println(mListliste.size());
 
-        mListliste.remove(5);
 
         System.out.println(mListliste.size());
 
@@ -30,13 +23,10 @@ public class Arraylist {
 
         System.out.println(mListliste.contains(7));
 
-
-
-   
-
         mListliste.clear();
 
         System.out.println(mListliste.size());
+
 
         
 
